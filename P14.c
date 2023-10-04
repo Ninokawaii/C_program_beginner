@@ -28,7 +28,7 @@ int main(){
     }
     else if(score <=50 && score >=0)
     {
-        printf("You goot grade F\n");
+        printf("You got grade F\n");
         printf("Sorry to know\n");
         printf("Study hard next time\n");
         printf("keep going forward");

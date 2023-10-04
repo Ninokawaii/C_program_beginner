@@ -51,13 +51,15 @@ int main(){
         dis = (total*70)/100;
         pay = total-dis;
     }
-    else if(total >=71)
+    else if(total >=80)
     {
-        dis = (total*70)/100;
+        dis = (total*80)/100;
         pay = total-dis;
     }
 
-    printf("Total: %.2f\n",total);
-    printf("Discount: %.2f\nPayment: %.2f",dis,pay);
+    printf("\n\n---[Calculater]---\n\n");
+
+    printf("Total: %.2f$\n",total);
+    printf("Discount: %.2f\nPayment: %.2f$",dis,pay);
     
 }
